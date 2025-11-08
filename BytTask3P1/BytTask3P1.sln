@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BytTask3P1", "BytTask3P1\BytTask3P1.csproj", "{D5091E59-292C-462B-991B-102FA8A765A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BytTask3P1_Tests", "BytTask3P1_Tests\BytTask3P1_Tests.csproj", "{F5B04BF8-B4A9-4223-B5D0-224494163A3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5091E59-292C-462B-991B-102FA8A765A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5091E59-292C-462B-991B-102FA8A765A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5091E59-292C-462B-991B-102FA8A765A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5091E59-292C-462B-991B-102FA8A765A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5B04BF8-B4A9-4223-B5D0-224494163A3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5B04BF8-B4A9-4223-B5D0-224494163A3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5B04BF8-B4A9-4223-B5D0-224494163A3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5B04BF8-B4A9-4223-B5D0-224494163A3D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
