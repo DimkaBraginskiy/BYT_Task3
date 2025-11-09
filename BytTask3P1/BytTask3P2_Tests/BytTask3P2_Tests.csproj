@@ -21,4 +21,8 @@
         <Using Include="NUnit.Framework"/>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\BytTask3P2\BytTask3P2.csproj" />
+    </ItemGroup>
+
 </Project>

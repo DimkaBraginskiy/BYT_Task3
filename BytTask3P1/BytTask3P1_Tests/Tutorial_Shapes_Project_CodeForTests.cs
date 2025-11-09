@@ -4,6 +4,7 @@ namespace Tut2_s20123_Tests
 {
     public class Tests
     {
+        [Test]
         [TestCase(5, 314.159)]
         [TestCase(1, 12.566)]
         [TestCase(10, 1256.637)]
@@ -15,6 +16,7 @@ namespace Tut2_s20123_Tests
             Assert.That(sphere.CalculateArea(), Is.EqualTo(expectedArea).Within(0.001));
         }
 
+        [Test]
         [TestCase(5, 523.598)]
         [TestCase(1, 4.189)]
         [TestCase(10, 4188.790)]
@@ -28,6 +30,7 @@ namespace Tut2_s20123_Tests
 
         //todo : Complete the remaning tests here
 
+        [Test]
         [TestCase(3,7,188.496)]
         [TestCase(1, 1, 12.566)]
         [TestCase(5, 10, 471.239)]
@@ -40,6 +43,7 @@ namespace Tut2_s20123_Tests
             Assert.That(cylinder.CalculateArea(), Is.EqualTo(expectedArea).Within(0.001));
         }
         
+        [Test]
         [TestCase(3,7, 197.920)]
         [TestCase(1, 1, 3.142)]
         [TestCase(5, 10, 785.398)]
@@ -52,6 +56,7 @@ namespace Tut2_s20123_Tests
             Assert.That(cylinder.CalculateVolume(), Is.EqualTo(expectedVolume).Within(0.001));
         }
         
+        [Test]
         [TestCase(4,8, 32.000)]
         [TestCase(1, 1, 1.000)]
         [TestCase(10, 15, 150.000)]
@@ -65,6 +70,7 @@ namespace Tut2_s20123_Tests
             Assert.That(rectangle.CalculateArea(), Is.EqualTo(expectedArea).Within(0.001));
         }
         
+        [Test]
         [TestCase(4, 8, 0)]
         [TestCase(1, 1, 0)]
         [TestCase(10, 15, 0)]
@@ -74,6 +80,7 @@ namespace Tut2_s20123_Tests
             Assert.That(rectangle.CalculateVolume(), Is.EqualTo(expectedVolume).Within(0.001));
         }
         
+        [Test]
         [TestCase(4, 96.000)]
         [TestCase(1, 6.000)]
         [TestCase(10, 600.000)]
@@ -85,6 +92,7 @@ namespace Tut2_s20123_Tests
             Assert.That(cube.CalculateArea(), Is.EqualTo(expectedArea).Within(0.001));
         }
         
+        [Test]
         [TestCase(4, 64.000)]
         [TestCase(1, 1.000)]
         [TestCase(10, 1000.000)]
